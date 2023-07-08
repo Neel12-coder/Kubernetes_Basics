@@ -2,6 +2,7 @@
 
 kubectl get pods
 kubectl create -f <file-name>.yaml
+kubectl apply -f <file-name>.yaml --record
 kubectl describe pod <name>
 kubectl rollout status deployment/<deployment-nmae>
 kubectl rollout history deployment/<deployment-name>
